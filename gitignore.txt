@@ -1,0 +1,16 @@
+
+# Local database files
+server/data/*.sqlite
+server/data/*.db
+
+# Dependencies and secrets
+node_modules/
+.env
+.env.local
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
