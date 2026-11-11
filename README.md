@@ -28,7 +28,52 @@ All Events: Correspondent Sreenivasulu
 * Year Restrictions: Events can be open to All Years, 1st Year, 2nd Year, 3rd Year, 4th Year, or 2nd, 3rd & 4th Year.
 * Enforced at both the API layer and the UI prior to registration.
 ------------------------------------------------------------------------------------------------------------------------------
+5. 💻 Hackathon Group Registration & Payment Simulation
+* For Hackathon events:
+Students enter a Team / Squad Name.
+* Provide group member details: Member 1 (Lead), Member 2, Member 3, and Member 4 with Name, Roll Number, and Branch.
+* View guidelines and instructions before submission.
+* Complete UPI / College Fee Portal payment simulation with transaction reference verification.
+---------------------------------------------------------------------------------------------------------------------------------------------------
 6. ⏱️ Automated Event Expiration (Time-Based)
 * Every event has a scheduled date, start time, and end time.
 * When an event's time has passed, it is automatically removed / hidden from the active events catalog.
 ------------------------------------------------------------------------------------------------------------------------------
+7. 💡 Campus OpenMind: Student Innovation & Project Forum
+* Authenticated students can pitch project ideas, post research concepts, discuss campus initiatives, and search for hackathon teammates.
+* Supports both identified student profiles (Name, Branch, Year) and privacy-preserving anonymous animal aliases.
+----------------------------------------------------------------------------------------------------------------------------------------
+🚀 Running the Project
+-----------------------------------------------------------------------------------------------------------------------------------------
+The application is running live:
+
+* Web Application & REST API: http://localhost:5000
+* Vite Client Dev Server: http://127.0.0.1:3000
+*API Health Endpoint: http://localhost:5000/api/health
+
+Quick Start Commands:
+# In c:\assignment_programs\campus-platform:
+
+# Run the Express server (port 5000)
+cd server
+node server.js
+
+# In another terminal, run Vite client (port 3000)
+cd client
+npm run dev
+--------------------------------------------------------------------------------------------------------------------------------------
+🐙 Pushing to Your GitHub Repository
+---------------------------------------------------------------------------------------------------------------------------------------
+A Git repository has already been initialized and committed in this folder. To publish to your GitHub:
+
+cd c:\assignment_programs\campus-platform
+
+# 1. Add your remote GitHub repo URL
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY_NAME>.git
+
+# 2. Push your master branch
+git branch -M main
+git push -u origin main
+------------------------------------------------------------------------------------------------------------------------------------------
+🔑 Default Login Credentials
+-------------------------------------------------------------------------------------------------------------------------------------------
