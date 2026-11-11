@@ -6,28 +6,29 @@ An enterprise-grade, full-stack campus portal developed for N.B.K.R. Institute o
 --------------------------------------------------------------------------------------------------------------------------
 1. 🔐 Dual Authentication System
 * Student Registration & Login:
-=> First-Time Sign-Up: Students provide Full Name, Branch (CSE, AIDS, AIML, IT, MECH, ECE, EEE, CIVIL), College Email (@nbkrist.edu.in), Phone Number, Year of Study (1st, 2nd, 3rd, 4th Year), and Set Password.
-=> Account Protection: Identity is locked to the authenticated student's session. No other student can register for events or post ideas on their behalf!
+ First-Time Sign-Up: Students provide Full Name, Branch (CSE, AIDS, AIML, IT, MECH, ECE, EEE, CIVIL), College Email (@nbkrist.edu.in), Phone Number, Year of Study (1st, 2nd, 3rd, 4th Year), and Set Password.
+ Account Protection: Identity is locked to the authenticated student's session. No other student can register for events or post ideas on their behalf!
 * Coordinator Role:
-=> Authorized coordinators manage and add events for all branches.
-=> Default Pre-set Coordinator Accounts:
+ Authorized coordinators manage and add events for all branches.
+ Default Pre-set Coordinator Accounts:
    .Coordinator 1: Roll No: 24KB1A05W1 • Password: KAILASH@123 (Kailash - Lead Coordinator)
    .Coordinator 2: Roll No: 24KB1A0597 • Password: 9032416879
 --------------------------------------------------------------------------------------------------------------------------
 2. 🏛️ Department Venues & Official Leadership Endorsements
-CSE Department Venues:
+* CSE Department Venues:
 CSE events are strictly held in Seminar Hall 1 or Seminar Hall 2 with highlighted visual badges.
-Mandatory Footer Endorsements:
+* Mandatory Footer Endorsements:
 All Events: Correspondent Sreenivasulu
-IEEE & CSE Events: CSE Department HOD Dr. Rajasekar Reddy
-Games / Physical Department Events: Physical Department Head Mallikarjuna
+* IEEE & CSE Events: CSE Department HOD Dr. Rajasekar Reddy
+* Games / Physical Department Events: Physical Department Head Mallikarjuna
 -----------------------------------------------------------------------------------------------------------------------------
 4. 🎯 Branch & Year Participation Rules
-ISTE / IST Events: Conducted by the Mechanical Department (MECH) with options for MECH Only or All Branches.
-IEEE Events: Conducted by CSE with participation restricted to CSE, AIDS, AIML, IT or All Branches.
-Year Restrictions: Events can be open to All Years, 1st Year, 2nd Year, 3rd Year, 4th Year, or 2nd, 3rd & 4th Year.
-Enforced at both the API layer and the UI prior to registration.
+* ISTE / IST Events: Conducted by the Mechanical Department (MECH) with options for MECH Only or All Branches.
+* IEEE Events: Conducted by CSE with participation restricted to CSE, AIDS, AIML, IT or All Branches.
+* Year Restrictions: Events can be open to All Years, 1st Year, 2nd Year, 3rd Year, 4th Year, or 2nd, 3rd & 4th Year.
+* Enforced at both the API layer and the UI prior to registration.
 ------------------------------------------------------------------------------------------------------------------------------
 6. ⏱️ Automated Event Expiration (Time-Based)
-Every event has a scheduled date, start time, and end time.
-When an event's time has passed, it is automatically removed / hidden from the active events catalog.
+* Every event has a scheduled date, start time, and end time.
+* When an event's time has passed, it is automatically removed / hidden from the active events catalog.
+------------------------------------------------------------------------------------------------------------------------------
