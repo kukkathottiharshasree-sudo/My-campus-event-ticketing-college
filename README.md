@@ -71,6 +71,10 @@ npm run dev
 ---------------------------------------------------------------------------------------------------------------------------------------
 A Git repository has already been initialized and committed in this folder. To publish to your GitHub:
 
+bash
+
+```bash
+
 cd c:\assignment_programs\campus-platform
 
 # 1. Add your remote GitHub repo URL
@@ -79,6 +83,7 @@ git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPOSITORY
 # 2. Push your master branch
 git branch -M main
 git push -u origin main
+```
 ------------------------------------------------------------------------------------------------------------------------------------------
 🔑 Default Login Credentials
 -------------------------------------------------------------------------------------------------------------------------------------------
