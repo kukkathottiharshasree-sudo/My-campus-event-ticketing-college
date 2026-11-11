@@ -88,3 +88,7 @@ git push -u origin main
 ------------------------------------------------------------------------------------------------------------------------------------------
 🔑 Default Login Credentials
 -------------------------------------------------------------------------------------------------------------------------------------------
+Role	Identifier	Password	Access / Scope
+Lead Coordinator	24KB1A05W1	KAILASH@123	Can create any branch event & access QR scanner
+Student Coordinator	24KB1A0597	9032416879	Can create any branch event & access QR scanner
+Demo Student	saicharan.cse@nbkrist.edu.in	nbkr@123	CSE 3rd Year Student • Apply passes & pitch ideas
