@@ -52,6 +52,10 @@ The application is running live:
 *API Health Endpoint: http://localhost:5000/api/health
 
 Quick Start Commands:
+bash
+
+```bash
+
 # In c:\assignment_programs\campus-platform:
 
 # Run the Express server (port 5000)
@@ -61,6 +65,7 @@ node server.js
 # In another terminal, run Vite client (port 3000)
 cd client
 npm run dev
+```
 --------------------------------------------------------------------------------------------------------------------------------------
 🐙 Pushing to Your GitHub Repository
 ---------------------------------------------------------------------------------------------------------------------------------------
