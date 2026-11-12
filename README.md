@@ -56,6 +56,10 @@ An enterprise-grade, full-stack campus portal developed for **N.B.K.R. Institute
 - Supports both identified student profiles (`Name`, `Branch`, `Year`) and privacy-preserving anonymous animal aliases.
 
 ---
+##Output
+---------------------------------------
+https://my-campus-event-ticketing-college.vercel.app/
+----------------------------------------
 
 ## 🚀 Running the Project
 
